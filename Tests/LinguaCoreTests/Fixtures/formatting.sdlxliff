@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:sdl="http://sdl.com/FileTypes/SdlXliff/1.0" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2" sdl:version="1.0">
+  <file original="formatting.docx" datatype="x-sdlfilterframework2" source-language="en-US" target-language="zh-CN">
+    <header>
+      <file-info xmlns="http://sdl.com/FileTypes/SdlXliff/1.0">
+        <value key="SDL:FileId">fixture-format-001</value>
+      </file-info>
+      <sdl:filetype-info>
+        <sdl:filetype-id>WordprocessingML v. 2</sdl:filetype-id>
+      </sdl:filetype-info>
+      <fmt-defs xmlns="http://sdl.com/FileTypes/SdlXliff/1.0">
+        <fmt-def id="1">
+          <value key="Bold">True</value>
+        </fmt-def>
+        <fmt-def id="2">
+          <value key="Italic">True</value>
+        </fmt-def>
+        <fmt-def id="3">
+          <value key="Underline">True</value>
+        </fmt-def>
+        <fmt-def id="4">
+          <value key="TextPosition">Superscript</value>
+        </fmt-def>
+        <fmt-def id="5">
+          <value key="TextColor">0xFF0000</value>
+        </fmt-def>
+        <fmt-def id="6">
+          <value key="TextPosition">Subscript</value>
+        </fmt-def>
+        <fmt-def id="7">
+          <value key="Bold">False</value>
+          <value key="BackgroundColor">Yellow</value>
+          <value key="FontName">Times New Roman</value>
+          <value key="FontSize">10.5</value>
+        </fmt-def>
+        <fmt-def id="8">
+          <value key="Strikethrough">True</value>
+        </fmt-def>
+      </fmt-defs>
+      <tag-defs xmlns="http://sdl.com/FileTypes/SdlXliff/1.0">
+        <tag id="pt1">
+          <bpt name="cf" word-end="false" can-hide="true">&lt;cf bold=True&gt;</bpt>
+          <ept name="cf" word-end="false" can-hide="true">&lt;/cf&gt;</ept>
+          <fmt id="1" />
+        </tag>
+        <tag id="pt2">
+          <bpt name="cf" word-end="false" can-hide="true">&lt;cf italic=True&gt;</bpt>
+          <ept name="cf" word-end="false" can-hide="true">&lt;/cf&gt;</ept>
+          <fmt id="2" />
+        </tag>
+        <tag id="pt3">
+          <bpt name="cf" word-end="false" can-hide="true">&lt;cf underline=single&gt;</bpt>
+          <ept name="cf" word-end="false" can-hide="true">&lt;/cf&gt;</ept>
+          <fmt id="3" />
+        </tag>
+        <tag id="pt4">
+          <bpt name="cf" word-end="false" can-hide="true">&lt;cf superscript=True&gt;</bpt>
+          <ept name="cf" word-end="false" can-hide="true">&lt;/cf&gt;</ept>
+          <fmt id="4" />
+        </tag>
+        <tag id="pt5">
+          <bpt name="cf" word-end="false" can-hide="true">&lt;cf color=FF0000&gt;</bpt>
+          <ept name="cf" word-end="false" can-hide="true">&lt;/cf&gt;</ept>
+          <fmt id="5" />
+        </tag>
+        <tag id="pt6">
+          <bpt name="cf" word-end="false" can-hide="true">&lt;cf subscript=True&gt;</bpt>
+          <ept name="cf" word-end="false" can-hide="true">&lt;/cf&gt;</ept>
+          <fmt id="6" />
+        </tag>
+        <tag id="pt7">
+          <bpt name="cf" word-end="false" can-hide="true">&lt;cf highlight=yellow&gt;</bpt>
+          <ept name="cf" word-end="false" can-hide="true">&lt;/cf&gt;</ept>
+          <fmt id="7" />
+        </tag>
+        <tag id="pt8">
+          <bpt name="cf" word-end="false">&lt;cf bold=True italic=True&gt;</bpt>
+          <ept name="cf" word-end="false">&lt;/cf&gt;</ept>
+        </tag>
+        <tag id="pt9">
+          <bpt name="cf" word-end="false" can-hide="true">&lt;cf strike=True&gt;</bpt>
+          <ept name="cf" word-end="false" can-hide="true">&lt;/cf&gt;</ept>
+          <fmt id="8" />
+        </tag>
+        <tag id="pt10">
+          <bpt name="hyperlink" word-end="false">&lt;hyperlink r:id="rId5"&gt;</bpt>
+          <ept name="hyperlink" word-end="false">&lt;/hyperlink&gt;</ept>
+        </tag>
+        <tag id="ph11">
+          <ph name="br" word-end="false">&lt;br/&gt;</ph>
+        </tag>
+      </tag-defs>
+    </header>
+    <body>
+      <trans-unit id="f1" translate="yes">
+        <source>This is <g id="pt1">bold</g>, <g id="pt2">italic</g> and <g id="pt3">underlined</g>.</source>
+        <seg-source>
+          <mrk mtype="seg" mid="1">This is <g id="pt1">bold</g>, <g id="pt2">italic</g> and <g id="pt3">underlined</g>.</mrk>
+        </seg-source>
+        <target>
+          <mrk mtype="seg" mid="1">这是<g id="pt1">粗体</g>、<g id="pt2">斜体</g>和<g id="pt3">下划线</g>。</mrk>
+        </target>
+        <sdl:seg-defs>
+          <sdl:seg id="1" conf="Draft" locked="false" />
+        </sdl:seg-defs>
+      </trans-unit>
+      <trans-unit id="f2" translate="yes">
+        <source>E = mc<g id="pt4">2</g> and H<g id="pt6">2</g>O in <g id="pt5">red</g>.</source>
+        <seg-source>
+          <mrk mtype="seg" mid="2">E = mc<g id="pt4">2</g> and H<g id="pt6">2</g>O in <g id="pt5">red</g>.</mrk>
+        </seg-source>
+        <target>
+          <mrk mtype="seg" mid="2">E = mc<g id="pt4">2</g>，H<g id="pt6">2</g>O，<g id="pt5">红色</g>。</mrk>
+        </target>
+        <sdl:seg-defs>
+          <sdl:seg id="2" conf="Translated" locked="false" />
+        </sdl:seg-defs>
+      </trans-unit>
+      <trans-unit id="f3" translate="yes">
+        <source><g id="pt1">Bold <g id="pt2">bold-italic <g id="pt7">highlighted not-bold</g></g></g> end<x id="ph11"/>.</source>
+        <seg-source>
+          <mrk mtype="seg" mid="3"><g id="pt1">Bold <g id="pt2">bold-italic <g id="pt7">highlighted not-bold</g></g></g> end<x id="ph11"/>.</mrk>
+        </seg-source>
+        <target>
+          <mrk mtype="seg" mid="3"><g id="pt1">粗体<g id="pt2">粗斜体<g id="pt7">高亮非粗体</g></g></g>结束<x id="ph11"/>。</mrk>
+        </target>
+        <sdl:seg-defs>
+          <sdl:seg id="3" conf="Draft" locked="false" />
+        </sdl:seg-defs>
+      </trans-unit>
+      <trans-unit id="f4" translate="yes">
+        <source><g id="pt8">No fmt-def, bpt says bold+italic</g> and <g id="pt9">struck</g> and <g id="pt10">link</g>.</source>
+        <seg-source>
+          <mrk mtype="seg" mid="4"><g id="pt8">No fmt-def, bpt says bold+italic</g> and <g id="pt9">struck</g> and <g id="pt10">link</g>.</mrk>
+        </seg-source>
+        <target>
+          <mrk mtype="seg" mid="4"><g id="pt8">无 fmt-def，bpt 表示粗斜体</g>、<g id="pt9">删除线</g>和<g id="pt10">链接</g>。</mrk>
+        </target>
+        <sdl:seg-defs>
+          <sdl:seg id="4" conf="Draft" locked="false" />
+        </sdl:seg-defs>
+      </trans-unit>
+      <trans-unit id="f5" translate="yes">
+        <source>Start <bx id="pt1"/>bold across<ex id="pt1"/> done.</source>
+        <seg-source>
+          <mrk mtype="seg" mid="5">Start <bx id="pt1"/>bold across<ex id="pt1"/> done.</mrk>
+        </seg-source>
+        <target>
+          <mrk mtype="seg" mid="5">开始<bx id="pt1"/>粗体跨段<ex id="pt1"/>完成。</mrk>
+        </target>
+        <sdl:seg-defs>
+          <sdl:seg id="5" conf="Draft" locked="false" />
+        </sdl:seg-defs>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

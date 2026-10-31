@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2"
+       xmlns:sdl="http://sdl.com/FileTypes/SdlXliff/1.0"
+       version="1.2" sdl:version="1.0">
+  <file original="sample.docx" source-language="en-US" target-language="zh-CN" datatype="x-sdl-plaintext">
+    <header>
+      <file-info>
+        <value key="SDL:FileId">fixture-file-001</value>
+      </file-info>
+    </header>
+    <body>
+      <trans-unit id="tu1" translate="yes">
+        <source>Hello <g id="1">world</g>!</source>
+        <seg-source>
+          <mrk mtype="seg" mid="1">Hello <g id="1">world</g>!</mrk>
+        </seg-source>
+        <target>
+          <mrk mtype="seg" mid="1">你好 <g id="1">世界</g>！</mrk>
+        </target>
+        <sdl:seg-defs>
+          <sdl:seg id="1" conf="Draft" locked="false" origin="mt" />
+        </sdl:seg-defs>
+      </trans-unit>
+      <trans-unit id="tu2" translate="yes">
+        <source>Locked phrase <x id="2"/> end.</source>
+        <seg-source>
+          <mrk mtype="seg" mid="2">Locked phrase <x id="2"/> end.</mrk>
+        </seg-source>
+        <target>
+          <mrk mtype="seg" mid="2">已锁定短语 <x id="2"/> 结束。</mrk>
+        </target>
+        <sdl:seg-defs>
+          <sdl:seg id="2" conf="Translated" locked="true" origin="tm" />
+        </sdl:seg-defs>
+      </trans-unit>
+      <trans-unit id="tu3" translate="yes">
+        <source>Track changes sample.</source>
+        <seg-source>
+          <mrk mtype="seg" mid="3">Track changes sample.</mrk>
+        </seg-source>
+        <target>
+          <mrk mtype="seg" mid="3">修订<mrk mtype="x-sdl-deleted" sdl:revid="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee">示例</mrk><mrk mtype="x-sdl-added" sdl:revid="ffffffff-1111-2222-3333-444444444444">样例</mrk>。</mrk>
+        </target>
+        <sdl:seg-defs>
+          <sdl:seg id="3" conf="Draft" locked="false" />
+        </sdl:seg-defs>
+      </trans-unit>
+      <trans-unit id="tu4" translate="no">
+        <source>Do not translate</source>
+        <seg-source>
+          <mrk mtype="seg" mid="4">Do not translate</mrk>
+        </seg-source>
+        <target>
+          <mrk mtype="seg" mid="4">Do not translate</mrk>
+        </target>
+        <sdl:seg-defs>
+          <sdl:seg id="4" conf="Translated" locked="false" />
+        </sdl:seg-defs>
+      </trans-unit>
+    </body>
+  </file>
+  <doc-info>
+    <sdl:rev-defs>
+      <sdl:rev-def id="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee" author="Fixture Author" date="01/15/2026 10:00:00" type="Delete" />
+      <sdl:rev-def id="ffffffff-1111-2222-3333-444444444444" author="Fixture Author" date="01/15/2026 10:00:01" />
+    </sdl:rev-defs>
+  </doc-info>
+</xliff>

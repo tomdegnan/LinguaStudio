@@ -1,0 +1,4 @@
+# Local build products — never commit
+.build/
+LinguaStudio.app/
+.DS_Store
